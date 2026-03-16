@@ -1,9 +1,11 @@
 # Trevex - The Transient Execution Vulnerability Explorer
 
+More coming soon.
+
 ## Found / Reproduced Vulnerabilities
 
 ### PoCs
-Go to the directory `./pocs.`
+In `./pocs`, you can find PoCs for some of the discovered issues.
 
 #### FP-DSS
 The folder `./pocs/amd-fpdss` contains our PoC for Floating-Point Divider State Sampling (FP-DSS).
