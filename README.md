@@ -135,7 +135,7 @@ Hence, it also stays undocumented for now.
 
 ## Found / Reproduced Vulnerabilities
 
-> Novel findings or variants are marked **Novel**.
+"Novel" refers to findings that are entirely new or where TREVEX uncovered additional aspects, such as new variants or instances on microarchitectures not previously known to be affected.
 
 | Vulnerability | Status | Notes |
 |----------|-----------|---------------------------------------------------------|
