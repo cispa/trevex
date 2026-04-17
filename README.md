@@ -43,20 +43,6 @@ tvx run start
 tvx run cleanup
 ```
 
-### The `setup` Command (will be published in the near future)
-The `setup` command is used to install and load dependencies.
-```bash
-# install/check Trevex system dependencies (apt and python packages)
-tvx setup install
-
-# load the tvx Python environment (planned)
-tvx setup load
-```
-
-Current status:
-- `setup install` currently installs Trevex system dependencies.
-- Python environment setup is not finished yet.
-
 ### The `result` Command
 The `result` command is used to inspect and process fuzzing results:
 ```bash
@@ -73,6 +59,16 @@ tvx result export <result-file.json>
 
 # rerun the testcase inside the fuzzer
 tvx result rerun
+```
+
+### The `setup` Command (will be published in the near future)
+The `setup` command is used to install and load dependencies.
+```bash
+# install/check Trevex system dependencies (apt and python packages)
+tvx setup install
+
+# load the tvx Python environment
+tvx setup load
 ```
 
 ### The `ctrl` Command (will be published in the near future)
