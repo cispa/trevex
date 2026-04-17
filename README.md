@@ -153,11 +153,23 @@ Go to the directory `./pocs.`
 #### FP-DSS
 The folder `./pocs/amd-fpdss` contains our PoC for Floating-Point Divider State Sampling (FP-DSS).
 FP-DSS is a transient execution attack leaking state from SSE and AVX floating point division units.
-It is tracked as CVE-2025-54505 and discussed by AMD as a [Security Notice](TODO).
+It is tracked as CVE-2025-54505 and discussed by AMD in a [Security Advisory](https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7053.html).
 It affects AMD Zen 1 and Zen+ CPUs.
 
+#### FPVI Variant
+The folder `./pocs/amd-fpvi-variant` contains our PoC for a variant of FPVI that does not require denormal input values.
+AMD discusses the finding a [Security Advisory](https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7050.html).
+It affects AMD CPUs.
+
+#### Zero-At-Ret
+The folder `./pocs/intel-zero-at-ret` contains our PoC for the Zero-at-Ret variant of LVI NULL.
+
+#### FPVI Zhaoxin
+The folder `./pocs/zhaoxin-fpvi` contains our a PoC triggering FPVI behavior on Zhaoxin's LuJiaZui microarchitecture.
+
+
 ## Research Paper
-The paper is available at [coming-soon](TODO). 
+The paper is available [here](https://d-we.me/papers/trevex_sp26.pdf). 
 You can cite our work with the following BibTeX entry:
 ```latex
 @inproceedings{Weber2026Trevex,
