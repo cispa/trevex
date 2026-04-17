@@ -1,0 +1,7 @@
+byte_representation;assembly_code;category;extension;isa_set(;precondition)*
+8g9eyg==;DIVSD XMM1, XMM2;SSE;SSE2;SSE2
+xepeyw==;VDIVSS XMM1, XMM2, XMM3;AVX;AVX;AVX
+YvFuGF7L;{evex} VDIVSS XMM1, XMM2, XMM3, {rn-sae};AVX512;AVX512EVEX;AVX512F_SCALAR
+9/E=;DIV ECX;BINARY;BASE;I86
+SPfx;DIV RCX;BINARY;BASE;I86
+Zvfx;DIV CX;BINARY;BASE;I86
