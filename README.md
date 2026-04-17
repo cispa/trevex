@@ -20,7 +20,9 @@ function tvx() {<repo-root>/tvx.py $@}
 
 Next, install the framework's dependencies:
 ```bash
-tvx setup install
+pip install -r ./requirements.txt
+sudo apt-get update
+sudo apt-get install build-essential cmake tmux cpuid linux-tools-common
 ```
 
 ## Usage
